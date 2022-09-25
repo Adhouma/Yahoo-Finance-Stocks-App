@@ -11,7 +11,6 @@ import { FinanceStockService } from '../../services/finance-stock.service';
 export class FinanceStocksComponent implements OnInit {
 
   financeStockList: FinanceStock[] = [];
-  randomColor!: string;
 
   constructor(
     private financeStockService: FinanceStockService
