@@ -1,0 +1,8 @@
+<div>
+  <h1>{{ financeStock.name }}</h1>
+  <p>Current price: <span class="price">{{ financeStock.currentPrice | currency }}</span></p>
+  <p>Daily high price: <span class="price">{{ financeStock.dailyHighPrice | currency }}</span></p>
+  <p>Daily low price: <span class="price">{{ financeStock.dailyLowPrice | currency }}</span></p>
+  <p class="desktop">Week high price: <span class="price">{{ financeStock.weekHighPrice | currency }}</span></p>
+  <p class="desktop">Week low price: <span class="price">{{ financeStock.weekLowPrice | currency }}</span></p>
+</div>

@@ -1,0 +1,7 @@
+<div class="finance-stock-list">
+  <div class="finance-stock-item" *ngFor="let financeStockItem of financeStockList">
+    <app-finance-stock-item
+      [financeStock]="financeStockItem">
+    </app-finance-stock-item>
+  </div>
+</div>
